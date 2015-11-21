@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+<head>
+  <title>jQuery Mobile page</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/Hairy.css" />
+  <link rel="stylesheet" href="CSS/Hairy.min.css" />
+  
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+  <script src="Java/Java.js"></script>
+
+</head>
+
+<body>
+ <!-- This is the first page -->
+    <section id="firstpage" data-role="page">
+        <div data-role="header">
+            <h1>Hello There!</h1>
+        </div>
+        <div class="ui-content">
+<img src="Images/Blond.jpg" id=onePic>
+ <p>Hello ladies! The goal of this application is to help women everywhere be the best that they can be. Having long hair myself, I know too well the struggles of maintaining your hairs appearance as well as how hard it is to learn new styles you can apply to it. In just a few steps, you will be able to make a new and fresh hairstyle everyday! You can see all the steps in the love button down bellow!</p>
+ <div data-role="navbar">
+<ul>
+		<li><a href="#secondpage" id="beginbtn">English Braid</a></li>
+	
+</ul>  
+        </div>
+        <div data-role="footer" >
+                <div data-role="navbar" >
+<ul>
+		<li><a href="#firstpage" data-role="button"><img src="Images/home.png" id="onePic1"></a></li>
+        <li><a href="#heartpage" data-role="button"><img src="Images/heart.png" id="onePic1"></a></li>
+        <li><a href="#infopage" data-role="button"><img src="Images/icon.png" id="onePic1"></a></li>
+        
+       
+</ul>
+        </div>
+</div>
+</div>
+
+</section>
+       
+
+<!-- This is the info page -->
+<div id="infopage" data-role="dialog" data-close-btn="false">
+  <div data-role="header">
+  <a href="#firstpage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+    <h2>What I'm About</h2>
+    <div class="h3">
+       
+  </div>
+  </div>
+  <div class="ui-content" role="main">
+  <img src="Images/Hair.jpg" id="onePic">
+  <h1>Hello!</h1>
+  <h1>My name is Petra</h1>
+    <p> Studying application design and development at Algonquin College! Trying to learn Java Script one step at a time. This is my first application so go easy on me! I hope you enjoy my little tutorial.</p>
+    <div data-role="footer">
+    <div data-role="navbar" >
+<ul>
+		<li><a href="#firstpage" data-role="button"><img src="Images/home.png" id="onePic1"></a></li>
+        <li><a href="#heartpage" data-role="button"><img src="Images/heart.png" id="onePic1"></a></li>
+        <li><a href="#infopage" data-role="button"><img src="Images/icon.png" id="onePic1"></a></li>
+        
+       
+</ul>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+    
+    
+     <!-- This is the favorites page -->
+    <div id="heartpage" data-role="dialog" data-close-btn="false">
+  <div data-role="header">
+  <a href="#firstpage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+    <h2>Steps</h2>
+ </div>
+  <div class="ui-content" role="main">
+   <ul>
+
+		<li><a href="#secondpage" data-role="button">Step One</a></li>
+
+        <li><a href="#thirdpage" data-role="button">Step Two</a></li>
+
+        <li><a href="#fourthpage" data-role="button">Step Three</a></li>
+
+		<li><a href="#fifthpage" data-role="button">Step Four</a></li>
+
+        <li><a href="#sixthpage" data-role="button">Step Five</a></li>
+        
+        <li><a href="#seventhpage" data-role="button">Step Six</a></li>
+
+       
+
+      
+
+</ul>
+
+    <div data-role="footer">
+    <div data-role="navbar" >
+<ul>
+		<li><a href="#firstpage" data-role="button"><img src="Images/home.png" id="onePic1"></a></li>
+        <li><a href="#heartpage" data-role="button"><img src="Images/heart.png" id="onePic1"></a></li>
+        <li><a href="#infopage" data-role="button"><img src="Images/icon.png" id="onePic1"></a></li>
+        
+       
+</ul>
+        </div>
+    </div>
+    </div>
+    </div>
+  
+ 
+    
+  
+
+
+        <!-- This is the second page -->
+   
+<div id="secondpage" data-role="dialog" data-close-btn="false">
+  <div data-role="header">
+  <a href="#firstpage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+    <h2>English Braid</h2>
+    <div class="h3">
+    <h3>step one</h3>    
+  </div>
+  </div>
+  <div class="ui-content" role="main">
+    <img src="Images/Loose-Side-Braid.jpg" id="onePic">
+    <h3>Separate your hair into clean streaks.</h3>
+    
+    <div data-role="navbar" >
+<ul>
+		<li><a href="#firstpage" class= "back" data-role="button"><img src="Images/left.png" id="onePic2"></a></li>
+        <li><a href="#thirdpage" class= "next" data-role="button"><img src="Images/right.png" id="onePic2"></a></li>
+        
+       
+</ul>
+    
+       </div>
+    </div>
+    <div data-role="footer">
+    <div data-role="navbar" id="bar" >
+<ul>
+		<li><a href="#firstpage" data-role="button"><img src="Images/home.png" id="onePic1"></a></li>
+        <li><a href="#heartpage" data-role="button"><img src="Images/heart.png" id="onePic1"></a></li>
+        <li><a href="#infopage" data-role="button"><img src="Images/icon.png" id="onePic1"></a></li>
+        
+       
+</ul>
+        </div>
+    </div>
+  
+  </div>
+  
+	<!-- This is the third page -->
+   
+    <div id="thirdpage" data-role="dialog" data-close-btn="false">
+  <div data-role="header">
+  <a href="#firstpage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+    <h2>English Braid</h2>
+    <div class="h3">
+    <h3>step two</h3>
+  </div>
+  </div>
+  <div class="ui-content" role="main">
+    <img src="Images/Loose-Side-Braid1.jpg" id="onePic">
+    <h3>Grab those streaks, at least three.</h3>
+    <div data-role="navbar" >
+<ul>
+		<li><a href="#secondpage" class= "back" data-role="button"><img src="Images/left.png" id="onePic2"></a></li>
+        <li><a href="#fourthpage" class= "next" data-role="button"><img src="Images/right.png" id="onePic2"></a></li>
+        
+       
+</ul>
+</div>
+<div data-role="footer">
+    <div data-role="navbar" >
+<ul>
+		<li><a href="#firstpage" data-role="button"><img src="Images/home.png" id="onePic1"></a></li>
+        <li><a href="#heartpage" data-role="button"><img src="Images/heart.png" id="onePic1"></a></li>
+        <li><a href="#infopage" data-role="button"><img src="Images/icon.png" id="onePic1"></a></li>
+        
+       
+</ul>
+        </div>
+    </div>
+  </div>
+  </div>
+  <!-- This is the fourth page -->
+   
+   <div id="fourthpage" data-role="dialog" data-close-btn="false">
+  <div data-role="header">
+  <a href="#firstpage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+    <h2>English Braid</h2>
+    <div class="h3">
+    <h3>step three</h3>
+  </div>
+  </div>
+  <div class="ui-content" role="main">
+    <img src="Images/Loose-Side-Braid2.jpg" id="onePic">
+    <h3>Start braiding them loosely, starting from the top.</h3>
+    <div data-role="navbar" >
+<ul>
+		<li><a href="#thirdpage" class= "back" data-role="button"><img src="Images/left.png" id="onePic2"></a></li>
+        <li><a href="#fifthpage" class= "next" data-role="button"><img src="Images/right.png" id="onePic2"></a></li>
+        
+       
+</ul>
+</div>
+<div data-role="footer">
+    <div data-role="navbar" >
+<ul>
+		<li><a href="#firstpage" data-role="button"><img src="Images/home.png" id="onePic1"></a></li>
+        <li><a href="#heartpage" data-role="button"><img src="Images/heart.png" id="onePic1"></a></li>
+        <li><a href="#infopage" data-role="button"><img src="Images/icon.png" id="onePic1"></a></li>
+        
+       
+</ul>
+        </div>
+    </div>
+  </div>
+  </div>
+  
+  <!-- This is the fifth page -->
+   
+   <div id="fifthpage" data-role="dialog" data-close-btn="false">
+  <div data-role="header">
+  <a href="#firstpage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+    <h2>English Braid</h2>
+    <div class="h3">
+    <h3>step four</h3>
+  </div>
+  </div>
+  <div class="ui-content" role="main">
+    <img src="Images/Loose-Side-Braid3.jpg" id="onePic">
+    <h3>Braid in a nice curve around the head.</h3>
+    <div data-role="navbar" >
+<ul>
+		<li><a href="#fourthpage" class= "back" data-role="button"><img src="Images/left.png" id="onePic2"></a></li>
+        <li><a href="#sixthpage" class= "next" data-role="button"><img src="Images/right.png" id="onePic2"></a></li>
+        
+       
+</ul>
+</div>
+<div data-role="footer">
+    <div data-role="navbar" >
+<ul>
+		<li><a href="#firstpage" data-role="button"><img src="Images/home.png" id="onePic1"></a></li>
+        <li><a href="#heartpage" data-role="button"><img src="Images/heart.png" id="onePic1"></a></li>
+        <li><a href="#infopage" data-role="button"><img src="Images/icon.png" id="onePic1"></a></li>
+        
+       
+</ul>
+        </div>
+    </div>
+  </div>
+  </div>
+<!-- This is the sixth page -->
+
+   <div id="sixthpage" data-role="dialog" data-close-btn="false">
+  <div data-role="header">
+  <a href="#firstpage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+    <h2>English Braid</h2>
+    <div class="h3">
+    <h3>step five</h3>
+  </div>
+  </div>
+  <div class="ui-content" role="main">
+    <img src="Images/Loose-Side-Braid4.jpg" id="onePic">
+    <h3>Intertwine the streaks gently, grabing more and more hair.</h3>
+    <div data-role="navbar" >
+<ul>
+		<li><a href="#fifthpage" class= "back" data-role="button"><img src="Images/left.png" id="onePic2"></a></li>
+        <li><a href="#seventhpage" class= "next" data-role="button"><img src="Images/right.png" id="onePic2"></a></li>
+        
+       
+</ul>
+</div>
+<div data-role="footer">
+    <div data-role="navbar" >
+<ul>
+		<li><a href="#firstpage" data-role="button"><img src="Images/home.png" id="onePic1"></a></li>
+        <li><a href="#heartpage" data-role="button"><img src="Images/heart.png" id="onePic1"></a></li>
+        <li><a href="#infopage" data-role="button"><img src="Images/icon.png" id="onePic1"></a></li>
+        
+       
+</ul>
+        </div>
+    </div>
+  </div>
+  </div>
+  <!-- This is the seventh page -->
+  <div id="seventhpage" data-role="dialog" data-close-btn="false">
+  <div data-role="header">
+  <a href="#firstpage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="fade"></a>
+    <h2>English Braid</h2>
+    <div class="h3">
+    <h3>step six</h3>
+  </div>
+  </div>
+  <div class="ui-content" role="main">
+    <img src="Images/Loose-Side-Braid5.jpg" id="onePic">
+    <h3>Slowly twirl it around to the side of your head and enjoy your English Braid!</h3>
+    <div data-role="navbar" >
+<ul>
+		<li><a href="#sixthpage" class= "back" data-role="button"><img src="Images/left.png" id="onePic2"></a></li>
+      
+        
+       
+</ul>
+</div>
+<div data-role="footer">
+    <div data-role="navbar" >
+<ul>
+		<li><a href="#firstpage" data-role="button"><img src="Images/home.png" id="onePic1"></a></li>
+        <li><a href="#heartpage" data-role="button"><img src="Images/heart.png" id="onePic1"></a></li>
+        <li><a href="#infopage" data-role="button"><img src="Images/icon.png" id="onePic1"></a></li>
+        
+       
+</ul>
+        </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
+
