@@ -44,6 +44,8 @@ function clickHandler(action) {
 }
 ``` 
 
+From then on all the pages are designed in the html file and are styled in the css file. Basically all the is needed to make this app work are these few lines of js and however you wish to shape it and style it in html and css.
+
 ## Author
 
 Petra Chrisostomakis
